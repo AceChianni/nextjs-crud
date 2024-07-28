@@ -7,8 +7,18 @@ import AnimeOpeningForm from "@/app/components/AnimeOpeningForm";
 
 const initialOpenings = [
   { id: 1, title: "We Are", artist: "Hiroshi Kitadani", anime: "One Piece" },
-  { id: 2, title: "Departure", artist: "Masatoshi Ono", anime: "HxH" },
-  { id: 3, title: "Again", artist: "You", anime: "FMA: Brotherhood" },
+  {
+    id: 2,
+    title: "Departure",
+    artist: "Masatoshi Ono",
+    anime: "Hunter x Hunter",
+  },
+  {
+    id: 3,
+    title: "Again",
+    artist: "You",
+    anime: "Full Metal Alchemist: Brotherhood",
+  },
   {
     id: 4,
     title: "Tank",
