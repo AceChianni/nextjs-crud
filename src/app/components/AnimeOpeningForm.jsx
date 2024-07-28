@@ -22,7 +22,7 @@ const AnimeOpeningForm = ({ addOpening, editOpening, editingOpening }) => {
       if (editingOpening) {
         editOpening(editingOpening.id, { title, artist, anime });
       } else {
-        const id = new Date().getTime(); // Replace with actual ID generation logic
+        const id = new Date().getTime();
         addOpening({ id, title, artist, anime });
       }
       setTitle("");
@@ -42,7 +42,7 @@ const AnimeOpeningForm = ({ addOpening, editOpening, editingOpening }) => {
           placeholder="Title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          className="flex-1 p-2 mr-2 bg-white rounded border border-gray-300"
+          className="flex-1 p-2 mr-2 bg-gray rounded border border-gray-300"
           required
         />
         <input
@@ -50,7 +50,7 @@ const AnimeOpeningForm = ({ addOpening, editOpening, editingOpening }) => {
           placeholder="Artist"
           value={artist}
           onChange={(e) => setArtist(e.target.value)}
-          className="flex-1 p-2 mr-2 bg-white rounded border border-gray-300"
+          className="flex-1 p-2 mr-2 bg-gray rounded border border-gray-300"
           required
         />
         <input
@@ -58,7 +58,7 @@ const AnimeOpeningForm = ({ addOpening, editOpening, editingOpening }) => {
           placeholder="Anime"
           value={anime}
           onChange={(e) => setAnime(e.target.value)}
-          className="flex-1 p-2 bg-white rounded border border-gray-300"
+          className="flex-1 p-2 bg-gray rounded border border-gray-300"
           required
         />
       </div>

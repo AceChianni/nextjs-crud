@@ -8,7 +8,7 @@ This is a Next.js application named AOF. It is a front end application used for 
 
 ## How To Run
 
-1. Clone the repository:git cline [repository URL](https://github.com/Ace-Chianni/nextjs-crud)
+1. Clone the repository:git cline [repository URL](https://github.com/Ace-Chianni/anime-openings-form)
 
 2. Navigate to the project directory: `cd [project-directory]`
 
